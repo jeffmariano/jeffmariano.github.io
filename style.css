@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+    }
 #navbarNav{
     background-color: white;
     height: 45px;
@@ -30,6 +30,7 @@
     /*background: url() no-repeat; vai puxar a foto*/
     background-size: cover;
     width: 100%;
+    max-width: auto;
     height: 100vh;
 }
 .main h3{
@@ -46,7 +47,7 @@
 .main .btn{
     height: 55px;
     width: 138px;
-    color: white;
+    color: rgb(255, 255, 255);
     outline: none;
     font-weight: bold;
     border-radius: 5px;
@@ -71,6 +72,7 @@ h1{
 .txt{
     text-align: justify;
     transition: transform 1s;
+    width: 94%;
 }
 .html{
     font: 300;
@@ -81,6 +83,7 @@ h1{
     background-color: rgb(235, 233, 233);
     height: 25px;
     width: 100%;
+    max-width: 100%;
 }
 
 
@@ -109,25 +112,10 @@ h1{
     border: 1px solid rgb(173, 101, 241);
     transition: 0.5s;
 }
-.btn2{
-    height: 55px;
-    width: 138px;
-    outline: none;
-    border: none; 
-    font-weight: bold;
-    background-color: rgb(202, 159, 241);;
-    color: white;
-    border-radius: 4px;
-}
-.btn2:hover{
-    background-color: transparent;
-    color: rgb(173, 101, 241);;
-    border: 1px solid rgb(173, 101, 241);
-    transition: 0.5s;
-}
+
 .control ul li{
     list-style: none;
-    background-color: rgb(202, 159, 241);
+    background-color: rgb(200, 157, 241);
     padding: 5px 15px;
     color: white;
     display: inline-block;
@@ -150,7 +138,20 @@ h1{
     opacity: 1;
     transition: 0.5s;
 }
+.img-fluid{
+    margin-bottom: 30px;
+}
 footer{
-    background-color: rgb(202, 159, 241); /*tentar um degrade aqui*/
-    
+    background-image: linear-gradient( to top,#d6baf0, transparent);  
+}
+.fale ul{
+    font-size: larger;
+    font-weight: 800;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.fale a{
+    color: black;
+    text-decoration: none;
 }
