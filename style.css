@@ -108,7 +108,7 @@ h1{
 }
 .btn1:hover{
     background-color: transparent;
-    color: rgb(173, 101, 241);;
+    color: rgb(173, 101, 241);
     border: 1px solid rgb(173, 101, 241);
     transition: 0.5s;
 }
